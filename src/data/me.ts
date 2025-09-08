@@ -2,7 +2,7 @@ export const ME = {
 firstName: 'Angélica',
 lastName: 'Pereira',
 role: 'Fullstack Developer',
-tagline: 'Creo soluciones web funcionales y escalables con React, Angular y Node.js',
+tagline: 'Me apasiona crear soluciones digitales funcionales y escalables, aportando adaptabilidad frente a nuevos retos, colaboración en equipo y pensamiento analítico para optimizar procesos y proponer mejoras. Aporto aprendizaje continuo, enfoque en la calidad, comunicación clara y proactividad.',
 location: 'Madrid, España',
 email: 'pereiraanngy@gmail.com',
 linkedin: 'https://www.linkedin.com/in/anngy-pereira-094aa026a/',
