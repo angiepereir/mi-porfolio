@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --lav-900: #6f5a70;   /* ciruela/malva oscuro */
+  --lav-700: #a38fb3;   /* lila medio */
+  --taupe-400: #c9b7ad; /* topo suave */
+  --ivory:   #f2eeea;   /* marfil */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* evita scroll lateral */
+  width: 100%;
+}
+
+img, video, iframe {
+  max-width: 100%;   /* nunca más anchos que su contenedor */
+  height: auto;      /* mantiene proporción */
+  display: block;    /* evita pequeños gaps inline */
+}
