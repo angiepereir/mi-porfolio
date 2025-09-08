@@ -4,7 +4,6 @@ import { projects } from "./data/projects";
 import ProjectCard from "./components/ProjectCard";
 import CopyEmailButton from "./components/CopyEmailButton";
 import Nav from "./components/Nav";
-import tailwindcss from "@tailwindcss/vite";
 
 export default function App() {
   const fullName = `${ME.firstName} ${ME.lastName}`;
