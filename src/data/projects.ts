@@ -12,6 +12,75 @@ imageAlt: string
 
 
 export const projects: Project[] = [
+  {
+  slug: 'pillpal',
+  title: 'PillPal – Aplicación Fullstack para Seguimiento de Medicación',
+  description:
+    'PillPal facilita el seguimiento de la toma de medicamentos para pacientes, familias y cuidadores. El backend gestiona la lógica de usuarios, medicamentos, recordatorios y tomas diarias. El frontend, permite registrar medicamentos, marcar dosis como tomadas y visualizar el estado de cada tratamiento. El proyecto se ejecuta con Docker.',
+  tags: [
+    'React',
+    'Vite',
+    'Spring Boot',
+    'Java',
+    'MySQL',
+    'Docker',
+    'Axios',
+    'Swagger UI',
+    'REST API',
+    'Responsive Design',
+    'Tailwind',
+    'Testing'
+  ],
+  repoUrl: 'https://github.com/angiepereir/PillPal-FullStack',
+  demoUrl: 'https://github.com/angiepereir/PillPal-FullStack', 
+  image: '/pillpal.png',
+  imageAlt: 'Aplicación fullstack para seguimiento de medicación'
+},
+{
+  slug: 'butterflies-mongodb',
+  title: 'App Butterflies – Fullstack con MongoDB',
+  description:
+    'Versión mejorada de la app “Asia Butterflies”, migrada de MySQL a MongoDB. Proyecto fullstack para gestionar fichas de mariposas: listar, crear, ver, actualizar y eliminar, incluyendo campos como Estado de Conservación y Periodo de Actividad. Implementé el backend con Node.js, Express y Mongoose, conectando con una base de datos en MongoDB Atlas. Añadí testing con Jest, Supertest y mongodb-memory-server para asegurar la calidad de la API.',
+  tags: [
+    'React',
+    'Vite',
+    'Node.js',
+    'Express',
+    'MongoDB',
+    'Mongoose',
+    'Tailwind CSS',
+    'Jest',
+    'Supertest',
+    'REST API',
+    'Fullstack'
+  ],
+  repoUrl: 'https://github.com/angiepereir/butterfly-fullstack-mongodb',
+  demoUrl: 'https://github.com/angiepereir/butterfly-fullstack-mongodb',
+  image: '/mongodb.png',
+  imageAlt: 'Aplicación fullstack de mariposas con MongoDB'
+},
+
+
+{
+    slug: 'asia-butterflies',
+    title: 'Asia Butterflies – Plataforma de registro de mariposas',
+    description:
+      'Aplicación fullstack para registrar, listar y gestionar mariposas de Asia. Implementé el backend con modelos en Sequelize, integré la base de datos en MySQL (Workbench), conecté el frontend y apliqué TDD para asegurar la calidad del código.',
+    tags: [
+      'React',
+      'Node.js',
+      'Express',
+      'Sequelize',
+      'MySQL Workbench',
+      'TDD',
+      'Jest',
+      'REST API'
+    ],
+    repoUrl: 'https://github.com/angiepereir/butterfly-fullstack',
+    demoUrl: 'https://github.com/angiepereir/butterfly-fullstack', 
+    image: '/fullstack.png',
+    imageAlt: 'Plataforma para registrar mariposas de Asia'
+},
 {
 slug: 'tarot-stem',
 title: 'Tarot STEM – App educativa',
@@ -72,4 +141,5 @@ demoUrl: 'https://angiepereir.github.io/Litio/',
 image: '/litio.png',
 imageAlt: 'Presentación interactiva sobre el litio',
 },
+
 ]

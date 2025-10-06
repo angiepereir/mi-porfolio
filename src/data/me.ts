@@ -7,6 +7,6 @@ location: 'Madrid, España',
 email: 'pereiraanngy@gmail.com',
 linkedin: 'https://www.linkedin.com/in/anngy-pereira-094aa026a/',
 github: 'https://github.com/angiepereir',
-cvUrl: '/CV_Angelica Pereira.pdf',
+cvUrl: '/cv_AngelicaPereira.pdf',
 photoUrl: '/ImagenCV.jpg',
 }
