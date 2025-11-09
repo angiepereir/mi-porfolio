@@ -13,6 +13,36 @@ imageAlt: string
 
 export const projects: Project[] = [
   {
+  slug: 'asterium',
+  title: 'Asterium – Plataforma fullstack de astronomía',
+  description:
+    'Plataforma sobre astronomía con artículos, imágenes, mini-juego y contenido generado por usuarios. Frontend en React + Vite + Tailwind con enrutamiento y renderizado Markdown. Backend en Node.js (Express + TypeScript) con Sequelize/MySQL, autenticación JWT, roles y subida de imágenes a Cloudinary.',
+  tags: [
+    'React',
+    'Vite',
+    'Tailwind',
+    'React Router',
+    'Markdown',
+    'Axios',
+    'Node.js',
+    'Express',
+    'TypeScript',
+    'Sequelize',
+    'MySQL',
+    'Cloudinary',
+    'JWT',
+    'Zod',
+    'Jest',
+    'Supertest',
+    'REST API',
+    'Fullstack'
+  ],
+  repoUrl: 'https://github.com/angiepereir/asterium',
+  image: '/homepage.png',
+  imageAlt: 'Plataforma fullstack de astronomía'
+},
+
+  {
   slug: 'pillpal',
   title: 'PillPal – Aplicación Fullstack para Seguimiento de Medicación',
   description:
